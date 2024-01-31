@@ -117,4 +117,10 @@ footer {
     main{margin-top:79px}
 }
 
-/*adds 
+/*adds extra stylinmg on larger screens */
+
+@media screen and (min-width:992px) {
+
+    #menu a:hover {border-bottom: 1px solid #3a3a3a;}
+
+}
