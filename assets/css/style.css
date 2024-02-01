@@ -130,6 +130,52 @@ list-style-type:none}
     color:#3a3a3a
 }
 
+/*styles for reasons sections*/
+#reasons{
+    width:90%;
+    margin:20px auto
+}
+#reasons h2{
+    font-size:280%;
+    margin-bottom:20px;
+    text-align:center
+}
+
+#benefits{
+    margin:20px
+}
+
+#benefits div{
+    line-height:20px;
+    margin-bottom:20px
+}
+
+#benefits div p{
+    padding:0 20px
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+/*benefits sections*/
+
+#circle-cover-bg{
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    width:90vw;
+    height:90vw;
+    margin:20px;
+    border-radius:50%;
+    max-width:300px;
+    max-height:300px
+}
+
+#benefits-image {
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
 
 /*media query: tablets and devices over 768px*/
 
