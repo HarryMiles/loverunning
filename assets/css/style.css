@@ -166,6 +166,23 @@ main {
     flex-wrap:wrap
 }
 
+#times div{
+    color:#fafafa;
+    background-color:rgba(0,0,0,0.6);
+    padding:15px;
+    text-align:center;
+    /*this will not wrap on screens less than 400px wide
+    each div will expand to fill available space on its row*/
+    flex-basis:200px;
+    flex-grow:1;
+    /*creates a div of meetup times to go over background image*/
+    border:2px white solid
+}
+
+#times h3{
+    color: #fafafa;
+}
+
 
 
 /* Footer */
